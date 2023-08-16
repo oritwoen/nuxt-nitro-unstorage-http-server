@@ -4,10 +4,10 @@ export default defineNuxtConfig({
 
   nitro: {
     devStorage: {
-      data: { driver: 'http', base: 'http://51.68.147.141:3000' },
+      data: { driver: 'http', base: 'http://us-rep-ni-kv-http.oad.earth:3000' },
     },
     storage: {
-      data: { driver: 'http', base: 'http://51.68.147.141:3000' },
+      data: { driver: 'http', base: 'http://us-rep-ni-kv-http.oad.earth:3000' },
     },
   },
 });
